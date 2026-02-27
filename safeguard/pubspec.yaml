@@ -1,0 +1,47 @@
+name: safeguard
+description: "Smart AI Powered Women’s Safety and Emergency Response System"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Core
+  cupertino_icons: ^1.0.6
+
+  # Networking
+  http: ^1.2.0
+
+  # Location
+  geolocator: ^10.1.1
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+  # Sensors (motion, shake detection, etc.)
+  sensors_plus: ^5.0.1
+
+  # Background service
+  flutter_background_service: ^5.0.1
+  flutter_background_service_android: ^6.2.2
+
+  # SMS
+  telephony: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add your assets here if you have any images/icons
+    # - assets/images/
